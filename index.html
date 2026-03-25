@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inici | Club Rugby Alella</title>
+  <meta name="description" content="Web unificada del Club Rugby Alella: club, equips, Escoleta, socis, sponsors, contacte i àrea privada.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div data-site-header></div>
+  <main id="inici">
+    <section class="hero">
+      <div class="container-public">
+        <span class="kicker">Sistema visual unificat</span>
+        <h1>Club Rugby Alella</h1>
+        <p>Esport, formació i comunitat en una web pública amb accés privat integrat per a l'Escoleta, famílies i staff.</p>
+        <div class="actions">
+          <a class="btn lp-btn-hero" href="#equips">Veure equips</a>
+          <a class="btn btn-secondary" href="#escoleta">Descobrir l'Escoleta</a>
+          <a class="btn btn-secondary" href="/area-privada/">Entrar a l'àrea privada</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-section soft" id="club">
+      <div class="container-public grid cols-2">
+        <article class="card">
+          <span class="badge">Club actiu</span>
+          <h2>Projecte de club</h2>
+          <p>Model esportiu i humà orientat a la continuïtat entre base i equips sèniors, amb mirada educativa i compromís comunitari.</p>
+        </article>
+        <article class="card">
+          <span class="badge info">Comunitat</span>
+          <h2>Vida de club</h2>
+          <p>Entrenaments, jornades i activitats socials reforcen la cultura de club al territori i la participació de famílies i voluntariat.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lp-section alt" id="equips">
+      <div class="container-public">
+        <h2 style="margin-bottom:1rem;">Categories</h2>
+        <div class="grid cols-3">
+          <article class="card"><span class="badge">Escoleta</span><h3>Iniciació</h3><p>Entorn segur i progressiu per descobrir el rugby.</p><a href="/equips/escoleta/">Més info</a></article>
+          <article class="card"><span class="badge info">Formació</span><h3>Sub 14 · Sub 16 · Sub 19</h3><p>Creixement tècnic i competitiu per etapes.</p><a href="/equips/">Veure categories</a></article>
+          <article class="card"><span class="badge warn">Competició</span><h3>Sènior femení i masculí</h3><p>Representació esportiva i identitat de club.</p><a href="/equips/senior-femeni/">Veure sèniors</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-section soft" id="escoleta">
+      <div class="container-public grid cols-2">
+        <article class="card">
+          <h2>Escoleta integrada</h2>
+          <p>L'Escoleta forma part del mateix sistema: informació pública, accés privat i coordinació operativa en una estructura coherent.</p>
+          <a class="btn btn-primary" href="/area-privada/">Accés privat d'Escoleta</a>
+        </article>
+        <article class="card">
+          <h2>Suport a famílies i staff</h2>
+          <p>Canals específics per a comunicació, seguiment i organització de l'activitat setmanal.</p>
+          <p><span class="chip">Famílies</span> <span class="chip">Staff</span> <span class="chip">Coordinació</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lp-section alt" id="contacte">
+      <div class="container-public grid cols-2">
+        <article class="card">
+          <h2>Contacte</h2>
+          <p data-club-contact></p>
+          <p><strong>Horari general:</strong> <span data-club-hours></span></p>
+          <a class="btn btn-primary" href="/contacte/">Anar a contacte</a>
+        </article>
+        <article class="card">
+          <h2>Col·laboració</h2>
+          <p>Les persones sòcies i els sponsors fan viable la continuïtat del projecte esportiu.</p>
+          <p><a href="/socis/">Fer-se soci/a</a> · <a href="/sponsors/">Ser sponsor</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>

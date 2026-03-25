@@ -1,0 +1,6 @@
+# Build generat
+/dist/
+
+# Assets binaris no necessaris en aquesta rèplica visual
+/assets/logo.png
+/assets/hero-team.jpg
